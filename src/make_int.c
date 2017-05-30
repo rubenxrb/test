@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+#include <unistd.h>
 #include <inttypes.h>
 
 static void		format_integer(t_agv *fmt, t_array **ret)
