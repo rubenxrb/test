@@ -12,13 +12,13 @@
 
 #include "libft.h"
 
-char	*ft_hextoa(int n, size_t prec)
+char	*ft_hextoa(long long n, size_t prec)
 {
 	char	*tmp;
 	char	*num;
 	char	*hex;
 
-	num = ft_itoa_base(n, 16);
+	num = ft_lltoa_base(n, 16);
 	hex = num;
 	if (prec)
 	{

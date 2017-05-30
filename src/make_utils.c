@@ -30,7 +30,7 @@ static t_array	*make_ptr(t_agv *fmt, va_list *ap)
 {
 	t_array	tmp;
 
-	tmp.data = ft_hextoa(va_arg(*ap, unsigned long long), fmt->prec);
+	tmp.data = ft_hextoa(va_arg(*ap, long long), fmt->prec);
 	tmp.data = strtolower(tmp.data);
 	tmp.d_size = 1;
 	tmp.bytes = ft_strlen(tmp.data);
