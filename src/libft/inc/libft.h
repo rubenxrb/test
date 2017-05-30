@@ -107,7 +107,7 @@ char				*ft_uitoa_base(unsigned int n, int b);
 char				*ft_ulltoa_base(unsigned long long n, int b);
 char				escape_seq(char seq[2]);
 
-char				*ft_hextoa(int n, size_t prec);
+char				*ft_hextoa(long long n, size_t prec);
 int					uctoutf8(const char *dest, wchar_t ch);
 int					ft_hextoi(const char *hex);
 
